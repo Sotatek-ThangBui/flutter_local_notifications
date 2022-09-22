@@ -413,7 +413,7 @@ static FlutterError *getFlutterError(NSError *error) {
   if (@available(iOS 10.0, *)) {
     UNMutableNotificationContent *content =
         [self buildStandardNotificationContent:arguments result:result];
-    for (int i = 0; i < 120; i+=3) {
+    for (int i = 0; i < 360; i+=3) {
         UNCalendarNotificationTrigger *trigger =
             [self buildUserNotificationCalendarTrigger:arguments second:i];
         [self addNotificationRequest:[self getIdentifier:arguments]
