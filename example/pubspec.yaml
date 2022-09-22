@@ -8,7 +8,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_local_notifications:
-    path: ../
+    git:
+      url: https://github.com/Sotatek-ThangBui/flutter_local_notifications.git
+      ref: master
   flutter_native_timezone: ^2.0.0
   http: ^0.13.4
   image: ^3.0.8

@@ -119,9 +119,11 @@ packages:
   flutter_local_notifications:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: a141773eb961a67418077e10e4337e0a1a14c92f
+      url: "https://github.com/Sotatek-ThangBui/flutter_local_notifications.git"
+    source: git
     version: "9.9.1"
   flutter_local_notifications_linux:
     dependency: transitive
